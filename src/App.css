@@ -1,13 +1,12 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  
+max-width: 1280px;
+  /* padding: 2rem; */
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f");
+  /* justify-content: flex-start; */
+  /* align-items: center; */
   background-size: cover;
 }
 

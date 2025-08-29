@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../../../src/index.css'
 
 function SearchBar({ onSearch }) {
   const [query, setQuery] = useState("");
@@ -15,8 +16,9 @@ function SearchBar({ onSearch }) {
         placeholder="Search by title, author, or subject"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
+        className="input"
       />
-      <button type="submit">Search</button>
+      <button className="search-button" type="submit">Search</button>
     </form>
   );
 }

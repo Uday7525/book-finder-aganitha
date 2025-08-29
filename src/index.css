@@ -68,3 +68,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.input{
+    padding:10px;
+    border-radius:5px;
+    border:1px solid grey;
+    width:300px;
+    margin-right:10px;
+}
+
+.search-button{
+    padding:10px 15px;
+    border-radius:5px;
+    border:none;
+    background-color:#03fc7b;
+    color:white;
+    cursor:pointer;
+}
